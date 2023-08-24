@@ -46,6 +46,45 @@
       max-width: 800px;
       margin: 0 auto;
     }
+
+    /* Add additional styles for a more professional look */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .testimonial-container {
+      display: flex;
+      overflow: hidden;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .testimonial {
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 0 20px;
+      width: 300px;
+      text-align: center;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .testimonial:hover {
+      transform: scale(1.05);
+    }
+
+    .testimonial-content {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-top: 10px;
+    }
+
+    .testimonial-author {
+      font-weight: bold;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
@@ -76,6 +115,32 @@
       <div class="container mx-auto px-6">
         <h2 class="surveillance-heading">Experience Next-Level Security with CyberEye's Surveillance Technology</h2>
         <p class="surveillance-description">Experience the next level of security with CyberEye's advanced surveillance camera systems. Our cutting-edge technology ensures real-time monitoring, high-resolution video capture, and intelligent analytics.</p>
+      </div>
+    </section>
+
+    <!-- Add a moving testimonial section -->
+    <section class="testimonial-section">
+      <div class="container mx-auto px-6">
+        <h2 class="text-2xl font-semibold mb-4 text-center">What Our Customers Say</h2>
+        
+        <div class="testimonial-container">
+          <!-- Fake Testimonials -->
+          <div class="testimonial">
+            <p class="testimonial-content">I'm extremely satisfied with CyberEye's security camera solutions. The video quality is top-notch, and the real-time monitoring feature provides peace of mind.</p>
+            <p class="testimonial-author">John Smith</p>
+          </div>
+          
+          <div class="testimonial">
+            <p class="testimonial-content">CyberEye's surveillance technology has revolutionized our security system. The high-resolution video capture and intelligent analytics are truly impressive.</p>
+            <p class="testimonial-author">Alice Johnson</p>
+          </div>
+          
+          <div class="testimonial">
+            <p class="testimonial-content">Choosing CyberEye was a game-changer for our business. The advanced surveillance solutions have enhanced our security measures significantly.</p>
+            <p class="testimonial-author">Michael Brown</p>
+          </div>
+        </div>
+        
       </div>
     </section>
   </main>
